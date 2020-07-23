@@ -629,9 +629,9 @@ class MainWidget(QtWidgets.QMainWindow):
 
         idx = self.toolwidget.typedataCheck.currentIndex()
         if idx == 2:
-            self.controlWidget.valueRangeWidget.label.setText(" number_of_calls   ")
+            self.controlWidget.valueRangeWidget.label.setText(" Number of calls   ")
         elif idx == 0:
-            self.controlWidget.valueRangeWidget.label.setText("  value_in_ether   ")
+            self.controlWidget.valueRangeWidget.label.setText("  Value in ether   ")
         if num > 0:
             self.process.setVisible(True)
             self.workthread = WorkerThreadGraph(self)
