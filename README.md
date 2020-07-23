@@ -20,12 +20,14 @@
 <ul>
 <h3><li>
 Database "ethereum_tx":<hr>
-Collection "mfg_nodes", node_name (str), node_type (str)<br>
-Collection "mfg_edges", from_name (str), to_name (str), time_stamp (date), value_in_ether (float)<br>
-Collection "ccg_nodes", node_name (str), node_type (str)<br>
-Collection "ccg_edges", from_name (str), to_name (str), time_stamp (date)<br>
-Collection "cig_nodes", node_name (str), node_type (str)<br>
-Collection "cig_edges", from_name (str), to_name (str), time_stamp (date), number_of_calls (int)<hr>
+<table><tbody>
+<tr><td>Collection "mfg_nodes"</td><td>node_name (str)</td><td>node_type (str)</td></tr>
+<tr><td>Collection "mfg_edges"</td><td>from_name (str)</td><td>to_name (str)</td><td>time_stamp (date)</td><td>value_in_ether (float)</td></tr>
+<tr><td>Collection "ccg_nodes"</td><td>node_name (str)</td><td>node_type (str)</td></tr>
+<tr><td>Collection "ccg_edges"</td><td>from_name (str)</td><td>to_name (str)</td><td>time_stamp (date)</td></tr>
+<tr><td>Collection "cig_nodes"</td><td>node_name (str)</td><td>node_type (str)</td></tr>
+<tr><td>Collection "cig_edges"</td><td>from_name (str)</td><td>to_name (str)</td><td>time_stamp (date)</td><td>number_of_calls (int)</td></tr>
+</tbody></table><hr>
 </li></h3>
 <h3><li>Developer version: <a href="./graphViz/main.py">graphViz/main.py</a></li></h3>
 <h3><li>Non-developer version: <a href="./graphViz-exe/main.exe">graphViz-exe/main.exe</li></h3>
