@@ -1,4 +1,4 @@
-<h1>Graph visualization of Ethereum transactions for distributed exchanges</h1>
+<h1>Graph visualization of Ethereum transactions for decentralized exchanges</h1>
 
 <h2>References</h2>
 <ul>
