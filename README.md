@@ -34,7 +34,7 @@ Database ("ethereum_tx"):<hr>
 <h3><li>
 Packaging as .exe:<hr>
 cd .\pyinstaller-develop<br><br>
-pyinstaller.py --paths C:\YourPath\Python35\Lib\site-packages\PyQt5\Qt\bin C:\YourPath\blockchain-ethereum\graphViz\main.py -w<hr>
+pyinstaller.py --paths C:\YourPath\Python35\Lib\site-packages\PyQt5\Qt\bin C:\YourPath\ethereum-graphviz\graphViz\main.py -w<hr>
 Copy all content in "pyinstaller-develop/main/dist" to "graphViz-exe" (replace existing content)
 </li></h3>
 </ul>
