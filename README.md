@@ -24,12 +24,12 @@ Database ("ethereum_tx"):<hr>
 </table><hr>
 </li></h3>
 <h3><li>Developer version: <a href="./graphViz/main.py">graphViz/main.py</a></li></h3>
-<h3><li>Non-developer version: <a href="./graphViz-exe/main.exe">graphViz-exe/main.exe</li></h3>
+<h3><li>Non-developer version: <a href="./graphViz-exe/main.exe">graphViz-exe/main.exe</a></li></h3>
 <h3><li>
 Packaging as .exe:<hr>
 cd .\pyinstaller-develop<br><br>
-pyinstaller.py --paths <span style="color:red">python_path</span>\Python35\Lib\site-packages\PyQt5\Qt\bin <span style="color:red">project_path</span>\graphViz\main.py -w<hr>
-Copy all content in "pyinstaller-develop/main/dist" to "graphViz-exe" (replace existing content)
+pyinstaller.py --paths [python_path]\Python35\Lib\site-packages\PyQt5\Qt\bin ..\graphViz\main.py -w<hr>
+Copy all content in "pyinstaller-develop\main\dist" to "graphViz-exe" (replace existing content)
 </li></h3>
 </ul>
 
