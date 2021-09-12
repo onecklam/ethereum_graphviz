@@ -28,7 +28,7 @@ Database ("ethereum_tx"):<hr>
 <h3><li>
 Packaging as .exe:<hr>
 cd .\pyinstaller-develop<br><br>
-pyinstaller.py --paths <i style="color:red">python_path</i>\Python35\Lib\site-packages\PyQt5\Qt\bin <i style="color:red">project_path</i>\graphViz\main.py -w<hr>
+pyinstaller.py --paths <span style="color:red">python_path</span>\Python35\Lib\site-packages\PyQt5\Qt\bin <span style="color:red">project_path</span>\graphViz\main.py -w<hr>
 Copy all content in "pyinstaller-develop/main/dist" to "graphViz-exe" (replace existing content)
 </li></h3>
 </ul>
