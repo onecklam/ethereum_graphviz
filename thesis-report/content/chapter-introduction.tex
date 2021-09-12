@@ -1,0 +1,72 @@
+% !TEX root = ../thesis.tex
+%
+
+\chapter{Introduction}
+\label{sec:intro}
+
+% \cleanchapterquote{"Mens cujusque is est Quisque" ¨C "Mind Makes the Man"}{Samuel Pepys}{}
+
+% \blindtext
+% 1. Introduction.
+% （1）background;（2）The problem to be addressed in this thesis; (3) Your approach; (4) Summary of the applications and the experimental results; (5) Summary of the contributions; (6) Organization of the thesis
+
+\section{Background}
+\label{sec:intro:background}
+
+% \blindtext
+Ethereum is one of the largest blockchains in terms of market capitalization, the cryptocurrency used in Ethereum transactions is called Ether (ETH). Ethereum is a public blockchain and Ether is distributed based on proof-of-work system, it means miners compete for Ether by consuming resources to solve computationally intensive problems \cite{1}. Similar to Bitcoin blockchain, Ethereum blockchain provides a decentralized platform for transactions to be globally accessible, low-cost, transparent, difficult-to-alter. Different from Bitcoin blockchain, Ethereum blockchain focuses on more than direct value transfer, it provides a global virtual machine for running computer programs as known as smart contracts to cater for complex transactions. For example, a popular application of smart contracts is designing financial products as they often involve complex conditions. To reveal the evolution or growth of blockchain transactions, the graph analysis is conducted in many research studies.
+
+One approach of graph analysis is graph analytics. It constructs graphs with transactions as edges and the participating parties as nodes, then it computes analytics or statistics for the attributes of nodes and edges. For example, centrality measures the importance or significance of individual nodes. Spagnuolo et al. \cite{6} created a modular framework namely "BitIodine", it was applied to multiple real-world cases. In a case related to ransomware, it analyzed the change of significance for known ransomware addresses by investigating the payments from victims' addresses. 
+
+Another approach of graph analysis is community detection. It divides nodes into different clusters to minimize the distances for nodes in the same cluster as well as to maximize the distances for nodes not in the same cluster. Nick \cite{7} summarized several heuristic methods that can be used for clustering in forming communities. His approach included the components "Grapher" and "Classifier", "Grapher" was used for graph construction from transaction data and user data while "Classifier" was used for clustering of nodes by adding tag information as attributes. 
+
+% 1. "The student should provide more background information to explain the research problem.
+
+The significance for the emergence of Ethereum blockchain is the potential of creating a new form of transactions in terms of the diversity of participants, types of activities, security of information, efficiency and cost of establishing contracts, time and place of execution, logical and technical capacity for real-world applications. For the diversity of participants, the Ethereum blockchain has decreasing entry barrier and expanding access channels with its development, it attracts participants from individuals and organizations, different countries, different devices. For the types of activities, currently the major applications on Ethereum blockchain are financial applications which traditionally have standardized services and regulatory requirements. These are typical features of a centralized application which is managed by authorized organizations, they have much weaker role in decentralized applications on Ethereum blockchain because the ownership is largely diluted, it is difficult for a single party to take control of the application even if it is the owner. For the security of information, it is difficult to recognize the identity of an address without additional information provided by its owner, also the address is not uniquely and permanently linked to its owner, therefore the privacy of the owner is protected in some extent. Regarding the public transaction information, it is recorded and shared by all Ethereum clients, the change of data needs consent from over half of the Ethereum clients which constitutes high cost of manipulating transaction information. For the efficiency and cost of establishing contracts, smart contracts are computer programs run on Ethereum Virtual Machine supported by global network of computers, and the transaction fee determined by Ether price is market-driven. For the time and place of transaction execution, currently the Ethereum platform is open all the time and accessible all over the world, it has low geographical restrictions and time cost to establish transactions among different parties. For the logical and technical capacity of real-world applications, the number and diversity of applications built on top the basic utility of moeney transfer continue to growth, some examples include the financial applications, games, social media, productivity software and so on.
+
+To understand the behavioral patterns of Ethereum transactions, this paper raises the following research questions for investigation:
+1. How do Ehtereum transactions react to abnormal changes caused by market events?
+2. How does the distribution of Ethereum transactions change over time?
+3. How do the importance and relationship with neighbors change over time for a specific account?
+
+Based on evolution analysis of Ethereum transactions, this paper obtains the observations below:
+1. There was abnormal change in activities of Ethereum transactions in 2018, a relevant significant event was the launch of a stable cryptocurrency Dai.
+2. The decentralized exchange, "Allbit" had the most contract invocation transactions associated among all studied decentralized exchanges in 2018, it introduced the cryptocurrency Dai into its products.
+3. In 2018, "Allbit" beated its predecessor "DEx.top" in terms of centrality and community measures of contract invocation.
+
+\section{Proposed Approach}
+\label{sec:intro:proposed}
+
+% \blindtext
+This thesis proposes a approach considering the macro view and micro view of Ethereum transactions, which serves for the applications such as abnormality detection, impact analysis, evolutionary study.
+
+From the macro view, the growth of smart contracts is analyzed by descriptive statistics and visualized by time plots. It can be applied to abnormality detection to inspect unusual changes in descriptive statistics, which can indicate significant events. In section \ref{sec:evaluation:abnormality}, it was found that in 2018 the activities of contract creation and decreation have abnormal changes, and the issuance of stable currency Dai was a significant event in that year.
+
+From the micro view, a program is developed to visualize three major transaction activities including money transfer, smart contract creation and smart contract invocation. It can be applied to impact analysis to visualize the distribution of transaction activities on individual accounts. In section \ref{sec:evaluation:impact}, it was found that in 2018 the sharp increase in contract invocation was contributed mostly by the decentralized exchange "Allbit". Moreover, it can be applied to evolutionary study to illustrate the change in importance of individual accounts and their relationships with others. In section \ref{sec:evaluation:evolution}, it was found that in 2018 the "Allbit" grew sharply in contract invocation and exceeded another decentralized exchange "DEx.top".
+
+This thesis makes the following contributions. From the macro view, transactions over the entire study period are fully imported without down sampling, they are grouped by day to reduce computational complexity, this approach can preserve the population data and extract relevant details. From the micro view, it enables user interaction to select specific accounts and time intervals for dynamic graph generation. Also, it is open-source to non-developers for direct execution and for developers for further customization. To the best of our knowledge, this thesis is the first research paper proposing a approach on fulfilling all of above requirements.
+
+\section{Thesis Structure}
+\label{sec:intro:structure}
+
+The remaining chapters of this thesis are organized as below.
+
+\textbf{Chapter \ref{sec:review}: Related Work} \\[0.2em]
+% \blindtext
+This chapter includes sections Ethereum Transactions, Evolution Analysis, New Perspective.
+
+\textbf{Chapter \ref{sec:methodology}: Methodology} \\[0.2em]
+% \blindtext
+This chapter includes sections Data Collection, Statistical Analysis, Graph Visualization. Data Collection includes subsections Statistical Data and Graph Data. Statistical Analysis includes subsections Descriptive Statistics and Regression Model. Graph Visualization includes subsections Data View, Graph View, Node View, Control View.
+
+\textbf{Chapter \ref{sec:applications}: Applications} \\[0.2em]
+% \blindtext
+This chapter includes sections Abnormality Detection, Impact Analysis, Evolutionary Study.
+
+\textbf{Chapter \ref{sec:evaluation}: Evaluation} \\[0.2em]
+% \blindtext
+This chapter includes sections Abnormality Detection, Impact Analysis, Evolutionary Study. Abnormality includes subsections Creation Statistics, Decreation Statistics, Significant Event. 
+
+\textbf{Chapter \ref{sec:conclusion}: Conclusion} \\[0.2em]
+% \blindtext
+This chapter includes sections Major Contributions and Future Improvements.

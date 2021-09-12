@@ -1,0 +1,29 @@
+% !TEX root = ../thesis.tex
+%
+
+\chapter{Conclusion}
+\label{sec:conclusion}
+
+% \blindtext
+% 1. Macroview (All transactions without sampling, Daily transactions not entire period), 2. Microview (Specification of period and groups, Open-source and customizable program), 3. Improvements (More parallel computing, More precalculated data)
+
+\section{Major Contributions}
+\label{sec:conclusion:contributions}
+
+% \blindtext
+The aim of this thesis is to provide the approach and tools for analyzing the evolution of Ethereum transactions. The approach consists of macroview and microview supplemented with appropriate tools.
+
+For the macroview, it covers all the Ethereum transactions from 30 Jul 2015 to 25 Nov 2019 without downsampling, and groups the transactions by day instead of the entire period to increase accuracy.
+
+For the microview, it is visualized by an application developed in this thesis in the form of graphs over time, this application allows users to select accounts and time intervals which enable more flexible graph generation, it is open-source to non-developers for direct implementation or to developers for further customization.
+
+\section{Future Improvements}
+\label{sec:conclusion:improvements}
+
+% \blindtext
+Regarding the application program for graph visualization, its computing performance should be improved in the future to handle larger datasets in shorter time. For example, it can include more parallel computing and pre-calculated data.
+
+For parallel computing, the independent components under computation are identified as much as possible, then they are processed concurrently by techniques such as MapReduce or matrix operation.
+
+For pre-calculated data, it contains the smallest units which can be calculated independently, they remain relatively constant and are usually the results of repetitive calculations. They are identified as much as possible to reduce the time for repetitive calculations.
+

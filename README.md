@@ -1,12 +1,6 @@
-<h1>Graph visualization of Ethereum transactions for decentralized exchanges</h1>
+<h1>Evolution Analysis of Ethereum Transactions</h1>
 
-<h2>References</h2>
-<ul>
-<h3><li>GUI widgets: <a href="https://github.com/PyQt5/PyQt">pyqt5</a></li></h3>
-<h3><li>Large data visualization: <a href="https://github.com/vispy/vispy">vispy</a></li></h3>
-<h3><li>Large graph layout: <a href="https://github.com/pygraphviz/pygraphviz">pygraphviz</a></li></h3>
-<h3><li>EXE packaging: <a href="https://github.com/pyinstaller/pyinstaller">pyinstaller</a></li></h3>
-</ul>
+<h2>MSc Thesis: <a href="./thesis.pdf">thesis.pdf</a></h2>
 
 <h2>Requirements</h2>
 <ul>
@@ -41,3 +35,11 @@ Copy all content in "pyinstaller-develop/main/dist" to "graphViz-exe" (replace e
 
 <h2>Preview</h2>
 <img src="./preview.png">
+
+<h2>References</h2>
+<ul>
+<h3><li>GUI widgets: <a href="https://github.com/PyQt5/PyQt">pyqt5</a></li></h3>
+<h3><li>Large data visualization: <a href="https://github.com/vispy/vispy">vispy</a></li></h3>
+<h3><li>Large graph layout: <a href="https://github.com/pygraphviz/pygraphviz">pygraphviz</a></li></h3>
+<h3><li>EXE packaging: <a href="https://github.com/pyinstaller/pyinstaller">pyinstaller</a></li></h3>
+</ul>

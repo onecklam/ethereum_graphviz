@@ -1,0 +1,62 @@
+% !TEX root = ../thesis.tex
+%
+\chapter{Applications}
+\label{sec:applications}
+
+% \cleanchapterquote{Users do not care about what is inside the box, as long as the box does what they need done.}{Jef Raskin}{about Human Computer Interfaces}
+
+% \blindtext
+% 4. Applications
+% (i.e., What applications can benefit from your work. ) You could conduct several case studies to illustrate them. For example, graph analysis, evolutionary study, attack detection, etc. (Some could be found from the papers I sent you before) 
+
+The approach of this thesis provides the macro view and micro view for the evolution of Ethereum transactions, it can identify overall trends as well as subset details of transactions for applications such as abnormality detection, impact analysis and evolutionary study.
+
+\section{Abnormality Detection}
+\label{sec:applications:abnormality}
+
+% \blindtext
+In the section \ref{sec:methodology:analysis:statistics}, the daily descriptive statistics over the entire period are computed to draw time plots. From the perspective of statistical analysis, the statistics should stay within certain number of standard deviations from their means for most of the time, otherwise they can be considered as abnormal.
+
+The occurrence of abnormality can be the result reflecting existing events or the indication of future events, its detection assists us in identifying the existing events or predicting the future events.
+
+From the macro view, this thesis monitors the daily numbers of created contracts, contract creators, refund records, refunders to detect abnormality in the growth of smart contracts.
+
+\section{Impact Analysis}
+\label{sec:applications:impact}
+
+% \blindtext
+There were certain significant events such as the launch of stable currency and cyber attack to steal cryptocurrency that cause positive or negative impact to the Ethereum blockchain. Compared with individual accounts, the exchanges can be stronger indicators to reflect the distribution of impact for these significant events. 
+
+In the section \ref{sec:methodology:view}, the exchanges and activities can be selected by users to construct and visualize graphs over time. To assess the impact of a significant event on Ethereum exchanges, users can select the exchanges and activities covering the period before and after the occurrence of the event, and visualize the graphs during the period to observe the distribution of impact on different exchanges for different activities. 
+
+\section{Evolutionary Study}
+\label{sec:applications:evolutionary}
+
+% \blindtext
+It can be difficult to understand the evolution of individual accounts in terms of their importance and relationships with other accounts without transforming historical transaction data into graphs over time.
+
+In the section \ref{sec:methodology:view}, centrality measures and community measures are computed for each account and they are represented by node sizes and node colors respectively for graph visualization. The program can project the growth of individual accounts by visualizing their history with dynamic graphs.
+
+% 4. and the potential applications of the developed system."
+\section{Machine Learning}
+\label{sec:applications:learning}
+
+% \blindtext
+The data and algorithms are two core components of machine learning applications. For the data part, the training data and test data for pattern recognition of graph evolution is difficult to obtain. The fundamental problem is how to define the labels or clusters for certain patterns or groups, the program developed for graph visualization in this paper provides the first step to explore the graph patterns in Ethereum transactions.
+
+From the above applications where decentralized exchanges are studied to observe the abnormal change in transaction activities, distribution of impact to different individual nodes, growth in importance and neighborhood relationships. All of them exhibit certain patterns, some of them may be regular patterns. If the research dataset is scaled up, different types of exchanges are included, or exchanges from different regions are included, or different categories of applications are included. An increasing amount of patterns are expected to be discovered, these can constitute the training dataset or test dataset if processed systematically.
+
+% \section{Method}
+% \label{sec:feature:theory}
+
+% \blindtext
+
+% \section{Experimental Results}
+% \label{sec:feature:results}
+
+% \blindtext
+
+% \section{Summary}
+% \label{sec:feature:summary}
+
+% \blindtext
